@@ -1,0 +1,93 @@
+/* CSS file for index.php */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+nav {
+    background: #35424a;
+    color: #ffffff;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+nav a:hover {
+    color: #e8491d;
+}
+.highlight {
+    color: #e8491d;
+    font-weight: bold;
+}
+.main-content {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.welcome-message {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.feature-box {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.feature-box h2 {
+    margin-top: 0;
+    color: #e8491d;
+}
+
+.feature-box ul, .feature-box ol {
+    padding-left: 20px;
+}
+.feature-box li {
+    margin-bottom: 10px;
+}
+.feature-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e8491d;
+    text-decoration: none;
+}
+.feature-box a:hover {
+    text-decoration: underline;
+}
+/* CSS file for index.php */
